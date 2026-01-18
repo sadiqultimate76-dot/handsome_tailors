@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %}
+About Us – {{ site.site_name }}
+{% endblock %}
+
+{% block content %}
+
+<section class="max-w-4xl mx-auto">
+
+    <h2 class="text-4xl font-bold text-brand mb-8 text-center">
+        About {{ site.site_name }}
+    </h2>
+
+    <div class="bg-white shadow rounded-xl p-8 space-y-6 text-gray-700 leading-relaxed">
+
+        <p>
+            <strong>{{ site.site_name }}</strong> is a trusted tailoring shop
+            located in Arumbakkam, Chennai, serving customers since
+            <strong>{{ site.established_year }}</strong>.
+        </p>
+
+        <p>
+            Our proprietor, <strong>{{ site.proprietor_name }}</strong>,
+            has over <strong>15 years of experience</strong> working as an
+            Assistant Master at the renowned Raymonds showroom.
+            This professional background ensures premium stitching,
+            perfect fitting, and high-quality finishing.
+        </p>
+
+        <p>
+            We specialize in tailoring for <strong>men, women, and all age groups</strong>.
+            From formal wear and casual outfits to traditional and custom designs,
+            every garment is stitched with precision and care.
+        </p>
+
+        <p>
+            With over <strong>30 years of tailoring excellence</strong>,
+            Handsome Tailors continues to deliver reliable service,
+            customer satisfaction, and timeless craftsmanship.
+        </p>
+
+    </div>
+
+</section>
+
+{% endblock %}
